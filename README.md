@@ -35,3 +35,16 @@ Iniciar watcher
 ```bash
 air
 ```
+
+Construir para produccion
+```bash
+go build -o <path_folder> <main_file>
+
+# Ejemplo
+go build -o ./bin/api ./main.go
+```
+
+Ejecutar binario
+```bash
+./bin/api
+```
